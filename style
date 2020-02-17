@@ -1,0 +1,13 @@
+nav {
+    top: 16px;
+    position: relative;
+    font-size: 13px;
+}
+
+.left_nav {
+    float: left;
+}
+
+li {
+    display: inline-block;
+}
