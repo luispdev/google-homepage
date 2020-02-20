@@ -1,13 +1,139 @@
-nav {
-    top: 16px;
-    position: relative;
+.main {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    height: 100%;
+    margin: 0;
+}
+
+.view {
+    position: absolute;
+    min-height: 100%;
+    top: 0;
+    width: 100%;
     font-size: 13px;
 }
 
 .left_nav {
     float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.right_nav {
+    float: right;
+    padding-right: 10px;
+    padding-top: -10px;
 }
 
 li {
     display: inline-block;
+    padding: 5px;
+    
+}
+
+a {
+    color: #000;
+    opacity: 0.75;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover, 
+a:active {
+    text-decoration: underline;
+}
+
+.app_image {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -8px;
+    margin-right: 7px;
+}
+
+#sign-in {
+	background-color: #4285f4;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 7px 8px;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 240px;
+}
+
+.bar { 
+    margin: 25px auto;
+    margin-top: 275px;
+	height: 48px;
+	width: 480px;
+	border: .5px solid #DCDCDC;
+	border-radius: 25px;
+    display: flex;
+    box-shadow: 0 0 5px #DCDCDC;
+}
+
+.magnify_glass {
+	width: 25px;
+	height: 25px;
+	margin: auto 10px;
+}
+
+input {
+	height: 40px;
+	width: 500px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+.mic {
+	margin: auto 20px auto auto;
+	width: 14px;
+	height: 20px;
+}
+
+.button {
+	text-align: center;
+}
+.buttons {
+	display: inline-block;
+	background-color: #F5F5F5;
+	border: none;
+	color: #5F6368;
+	margin: 5px 4px;
+    padding: 0 16px;	
+    border-radius: 5px;
+	outline: none;
+	line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: 14px;    	
+}
+
+.footer_nav {
+	position: fixed;
+	left: 0;
+	bottom: -10px;
+	width: 100%;
+	background-color: #F5F5F5;
+	color: #5F6368;
+	font-size: 13.5px;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+.left_footer {
+    float: left;
+    padding: 0 0 0 25px;
+}
+
+.right_footer {
+    float: right;
 }
